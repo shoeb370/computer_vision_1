@@ -4,7 +4,7 @@ import numpy as np
 #create a new canvas
 canvas = np.zeros((512,512,3),dtype = "uint8")
 canvas2 = canvas.copy()
-mid = 512//2
+mid = 512//2 # creating the mid-point of rectangle
 center = (mid, mid)
 radius = 100
 color = (0,255,255)
