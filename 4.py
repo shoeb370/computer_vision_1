@@ -14,5 +14,5 @@ cv2.rectangle(image2, start, end, color, thickness)
 cv2.imshow("Original Image", image)
 cv2.imshow("Modified Image", image2)
 #if you want to save the image 
-cv2.imwrite("Modified_rectangle.jpg", image2)
+cv2.imwrite(".\\images\\Modified_rectangle.jpg", image2)
 cv2.waitKey(0)

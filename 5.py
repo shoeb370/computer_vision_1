@@ -18,6 +18,6 @@ cv2.imshow("Original Image", canvas)
 cv2.imshow("Modified canvas", canvas2)
 cv2.imshow("Modified canvas thickness -1", canvas3)
 #Now we are going to save the image
-cv2.imwrite("Modified_canvas.jpg",canvas2)
-cv2.imwrite("Modified_neg_canvas.jpg",canvas3)
+cv2.imwrite(".\\images\\Modified_canvas.jpg",canvas2)
+cv2.imwrite(".\\images\\Modified_neg_canvas.jpg",canvas3)
 cv2.waitKey(0)

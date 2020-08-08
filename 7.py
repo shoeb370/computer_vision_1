@@ -19,7 +19,7 @@ using the pixel area relation (as described by the OpenCV official
 documentation). We use this algorithm to create a moiré-free resized
 image """
 cv2.imshow("Original Image",image) #display original Image
-cv2.imwrite("Resized_image.jpg", resize_image) #save the resize image
+cv2.imwrite(".\\images\\Resized_image.jpg", resize_image) #save the resize image
 cv2.imshow("Resized Image", resize_image) #display the resize image
 #Resize using x and y factor
 resize_with_factor = cv2.resize(image, None, fx = 1.2, fy= 1.2, interpolation= cv2.INTER_LANCZOS4)
@@ -27,6 +27,6 @@ resize_with_factor = cv2.resize(image, None, fx = 1.2, fy= 1.2, interpolation= c
 in the horizontal (widthwise) and vertical (heightwise) directions.
 These two arguments are optional. """
 #INTER_LANCZOS4: This uses the 8×8 nearest neighbor interpolation.
-cv2.imwrite("Resized_with_factor.jpg", resize_with_factor)
+cv2.imwrite(".\\images\\Resized_with_factor.jpg", resize_with_factor)
 cv2.imshow("Resized with Factor", resize_with_factor) # original image size increases
 cv2.waitKey(0)

@@ -11,5 +11,5 @@ color = (0,255,255)
 thickness = 5
 cv2.circle(canvas2, center, radius, color, thickness)
 cv2.imshow("Circle canvas", canvas2)
-cv2.imwrite("canvas_circle.jpg", canvas2)
+cv2.imwrite(".\\images\\canvas_circle.jpg", canvas2)
 cv2.waitKey(0)
