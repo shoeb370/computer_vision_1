@@ -13,4 +13,5 @@ thickness = 5
 cv2.line(image2,start, end, color, thickness)
 cv2.imshow("Original image", image)
 cv2.imshow("Modified image", image2)
+cv2.imwrite(".\\images\\line_on_image.jpg",image2)
 cv2.waitKey(0)
