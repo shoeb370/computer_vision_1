@@ -26,7 +26,7 @@ Below here are some list of code that are completed.
 19. Smoothing Using the Gaussian Technique
 20. Median Blurring
 
-The previous three blurring techniques yield blurred images with the side effect that we
-lose the edges in the image.
+The previous three blurring techniques yield blurred images with the side effect that we lose the edges in the image.To blur an image while preserving the edges, we use bilateral
+blurring, which is an enhancement over Gaussian blurring.
 
 21. Bilateral blurring
