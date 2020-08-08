@@ -18,18 +18,18 @@ resizedimage2 = cv2.resize(image2,(300,300),interpolation=cv2.INTER_AREA)
 #Now addition of two image
 resultant = cv2.add(resizedimage1,resizedimage2)
 cv2.imshow("Resultant Image add(a,b)", resultant)
-cv2.imwrite("Addition_Image.jpg", resultant)
+cv2.imwrite(".\\images\\Addition_Image.jpg", resultant)
 #weighted addition
 weightedimage = cv2.addWeighted(resizedimage1,0.7,resizedimage2,0.3,0)
 cv2.imshow("Weighted_image",weightedimage)
-cv2.imwrite("Weighted_add.jpg",weightedimage)
+cv2.imwrite(".\\images\\Weighted_add.jpg",weightedimage)
 #Enhance Image
 imageenhanced = 255*resizedimage1
 cv2.imshow("Enhance Image", imageenhanced)
-cv2.imwrite("Enhanced_Image.jpg",imageenhanced)
+cv2.imwrite(".\\images\\Enhanced_Image.jpg",imageenhanced)
 arrayimage = resizedimage1+resizedimage2
 cv2.imshow("Array Image(a+b)", arrayimage)
-cv2.imwrite("Array_image_add.jpg",arrayimage)
+cv2.imwrite(".\\images\\Array_image_add.jpg",arrayimage)
 cv2.waitKey(0)
 """ ResultantImage = α x image1 + β x image2 + γ 
 where 𝝰 is the weight of image 1, 𝛃 is the weight of image 2, and 𝛄 is a constant. By

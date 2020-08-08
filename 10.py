@@ -10,14 +10,14 @@ cv2.imshow("Original Image", image)
 #Flipped horizontally
 flippedhorizontally = cv2.flip(image, 1)
 cv2.imshow("Flipped Horizontally", flippedhorizontally)
-cv2.imwrite("Flipped_Horizontally.jpg", flippedhorizontally)
+cv2.imwrite(".\\images\\Flipped_Horizontally.jpg", flippedhorizontally)
 #flipped Vertically
 flippedVertically = cv2.flip(image, 0)
 cv2.imshow("Flipped Vertically", flippedVertically)
-cv2.imwrite("Flipped_Vertically.jpg", flippedVertically)
+cv2.imwrite(".\\images\\Flipped_Vertically.jpg", flippedVertically)
 #Flipped horizontally and then vertically
 flippedHV = cv2.flip(image, -1)
 cv2.imshow("Flipped HV", flippedHV)
-cv2.imwrite("Flipped_HV.jpg", flippedHV)
+cv2.imwrite(".\\images\\Flipped_HV.jpg", flippedHV)
 
 cv2.waitKey(0)

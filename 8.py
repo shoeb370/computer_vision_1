@@ -11,7 +11,7 @@ cv2.imshow("Original Image", image)
 translationMatrix = np.float32([[1,0,50],[0,1,20]])
 #Move the image
 movedImage = cv2.warpAffine(image, translationMatrix, (image.shape[1],image.shape[0]))
-cv2.imwrite("Moved_Image_translation_matrix.jpg", movedImage)
+cv2.imwrite(".\\images\\Moved_Image_translation_matrix.jpg", movedImage)
 cv2.imshow("Moved Image", movedImage)
 cv2.waitKey(0)
 """ The first row, as defined by [1,0,50], represents the movement along the x-axis by
