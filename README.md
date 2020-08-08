@@ -9,11 +9,11 @@ Below here are some list of code that are completed.
 
 
 - Techniques of Image processing
--- Resizing
-11.Cropping- Crop the image to get only the face of the lena
+- Resizing
+11. Cropping: Crop the image to get only the face of the lena
 - Image Arithematic 
-12.Addition of two Images
-13.Substraction of two Images
+12. Addition of two Images
+13. Substraction of two Images
 - Bitwise Operation
 14. Bitwise Operation
 - Masking.
