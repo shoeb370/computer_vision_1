@@ -22,7 +22,17 @@ Below here are some list of code that are completed.
 16. Splitting channel 
 17. Merging of all channel
 - Noise reduction using smoothing and blurring
+
+Smoothing, also called blurring, is an important image processing technique to reduce noise present in an image 
+
 18. Smoothing/Blurring by Mean Filtering or Averaging
+
+Salt and pepper noise: Contains random occurrences of black and white pixels
+
+Impulse noise: Means random occurrences of white pixels
+
+Gaussian noise: Where the intensity variation follows a Gaussian normal distribution 
+
 19. Smoothing Using the Gaussian Technique
 
 Gaussian filtering is one of the most effective blurring techniques in image processing.

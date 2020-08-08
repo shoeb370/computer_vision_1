@@ -1,9 +1,5 @@
 # Smoothing Using the Gaussian Technique
-''' Gaussian filtering is one of the most effective blurring techniques in image processing.
-blurring technique gives a more natural smoothing result compared to the averaging technique. 
--- The image represented by the NumPy array.
-–– The k×k matrix as the kernel height and width.
-–– sigmaX and sigmaY is a standard deviation in the X and Y directions.'''
+
 import cv2
 import numpy as np
 image = cv2.imread("lena.jpg")

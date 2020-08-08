@@ -1,7 +1,5 @@
-''' Smoothing, also called blurring, is an important image processing technique to reduce noise present in an image '''
-''' Salt and pepper noise: Contains random occurrences of black and white pixels
-Impulse noise: Means random occurrences of white pixels
-Gaussian noise: Where the intensity variation follows a Gaussian normal distribution '''
+
+
 # Smoothing/Blurring by Mean Filtering or Averaging
 import cv2 
 import numpy as np
