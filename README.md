@@ -24,6 +24,13 @@ Below here are some list of code that are completed.
 - Noise reduction using smoothing and blurring
 18. Smoothing/Blurring by Mean Filtering or Averaging
 19. Smoothing Using the Gaussian Technique
+
+Gaussian filtering is one of the most effective blurring techniques in image processing.
+blurring technique gives a more natural smoothing result compared to the averaging technique. 
+-- The image represented by the NumPy array.
+–– The k×k matrix as the kernel height and width.
+–– sigmaX and sigmaY is a standard deviation in the X and Y directions.
+
 20. Median Blurring
 
 The previous three blurring techniques yield blurred images with the side effect that we lose the edges in the image.To blur an image while preserving the edges, we use bilateral
