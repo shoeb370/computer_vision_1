@@ -25,4 +25,6 @@ Below here are some list of code that are completed.
 18. Smoothing/Blurring by Mean Filtering or Averaging
 19. Smoothing Using the Gaussian Technique
 20. Median Blurring
+The previous three blurring techniques yield blurred images with the side effect that we
+lose the edges in the image
 21. Bilateral blurring
