@@ -1,4 +1,4 @@
-# computer_vision_1
+# computer_vision_)1
 Learn from book building a Computer Vision Applications using Artificial Neural Networks by Shamshad Ansari
 Publication Apress
 
@@ -49,4 +49,14 @@ blurring technique gives a more natural smoothing result compared to the averagi
 The previous three blurring techniques yield blurred images with the side effect that we lose the edges in the image.To blur an image while preserving the edges, we use bilateral
 blurring, which is an enhancement over Gaussian blurring.
 
-21. Bilateral blurring
+21. Bilateral blurring.
+
+- Binarization with thresholding
+
+Image binarization is the process of converting a grayscale image into a binary—a black-and-
+white—image. We apply a technique called thresholding to binarize an image.
+
+22. Binarization Using Simple Thresholding
+23. Binarization Using Adaptive Thresholding
+
+Adaptive thresholding is used to binarize a grayscale image that has a varying degree of pixel intensity, and one single threshold value may not be suitable to extract the information from the image.
