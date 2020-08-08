@@ -11,6 +11,6 @@ cv2.imshow("Original Image", image)
 #if you want to see all image of b,g,r go to 16.py
 merged = cv2.merge([b,g,r])
 cv2.imshow("Merged Image", merged)
-cv2.imwrite("Merged_image.jpg", merged)
+cv2.imwrite(".\\images\\Merged_image.jpg", merged)
 
 cv2.waitKey(0)
