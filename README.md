@@ -27,8 +27,11 @@ Below here are some list of code that are completed.
 
 Gaussian filtering is one of the most effective blurring techniques in image processing.
 blurring technique gives a more natural smoothing result compared to the averaging technique. 
+
 -- The image represented by the NumPy array.
+
 –– The k×k matrix as the kernel height and width.
+
 –– sigmaX and sigmaY is a standard deviation in the X and Y directions.
 
 20. Median Blurring
