@@ -8,13 +8,13 @@ Currently work in progress.
 Below here are some list of code that are completed.
 
 
-Techniques of Image processing
-Resizing
+- Techniques of Image processing
+-- Resizing
 11.Cropping- Crop the image to get only the face of the lena
--Image Arithematic 
+- Image Arithematic 
 12.Addition of two Images
 13.Substraction of two Images
--Bitwise Operation
+- Bitwise Operation
 14. Bitwise Operation
 - Masking.
 15. Masking Using Bitwise AND Operation
