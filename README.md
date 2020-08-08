@@ -8,7 +8,7 @@ Currently work in progress.
 Below here are some list of code that are completed.
 
 
-- Techniques of Image processing
+## Techniques of Image processing
 - Resizing
 11. Cropping: Crop the image to get only the face of the lena
 - Image Arithematic 
