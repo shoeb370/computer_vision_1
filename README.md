@@ -1,4 +1,4 @@
-# computer_vision_)1
+# computer_vision_01
 Learn from book building a Computer Vision Applications using Artificial Neural Networks by Shamshad Ansari
 Publication Apress
 
@@ -60,3 +60,30 @@ white—image. We apply a technique called thresholding to binarize an image.
 23. Binarization Using Adaptive Thresholding
 
 Adaptive thresholding is used to binarize a grayscale image that has a varying degree of pixel intensity, and one single threshold value may not be suitable to extract the information from the image.
+
+- Ostu binarization
+
+In the simple thresholding, we select a global threshold that is arbitrarily selected. It is difficult to know what the right value of the threshold is, so we may need to do trial-and-error experiments a few times before you get the right value. Even if you get an ideal value for one case, it may not work with other images that have different pixel intensity
+characteristics.
+
+Otsu’s method determines an optimal global threshold value from the image
+histogram
+
+24. Ostu's Binarization
+
+
+### Gradient and Edge Detection
+Edge detection involves a set of methods to find points in an image where the brightness of pixels changes distinctly.
+
+- Sobel Derivatives(cv2.Sobel() function)
+
+The Sobel method is a combination of Gaussian smoothing and Sobel differentiation, which computes an approximation of the gradient of an image intensity function. Because of the Gaussian smoothing, this method is resistant to noise.
+
+25. Sobel and Schar Gradient Detection
+
+- Laplacian Derivatives (cv2.Laplacian() Function)
+
+The Laplacian operator calculates the second derivative of the pixel intensity function to
+determine the edges in the image.
+
+26. Edge Detection Using Laplacian Derivatives
