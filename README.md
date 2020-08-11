@@ -81,9 +81,18 @@ The Sobel method is a combination of Gaussian smoothing and Sobel differentiatio
 
 25. Sobel and Schar Gradient Detection
 
+- Note: A data type, cv2.CV_64F, which is a 64-bit float. Why? The transition from black-to-white is considered a positive slope, while the transition from white-to-black is a negative slope. An 8-bit unsigned integer cannot hold a negative number. Therefore, we need to use a 64-bit float; otherwise, we will lose gradients when the transition from white to black happens.
+
 - Laplacian Derivatives (cv2.Laplacian() Function)
 
 The Laplacian operator calculates the second derivative of the pixel intensity function to
 determine the edges in the image.
 
 26. Edge Detection Using Laplacian Derivatives
+- Canny Edge Detection
+Canny edge detection is one of the most popular edge detection methods in image processing. This is a multistep process. It first blurs the image to reduce noise and then computes Sobel gradients in the X and Y directions, suppresses the edges where nonmaxima is calculated, and finally determines whether a pixel is “edge-like” or not by applying hysteresis thresholding.
+27. Canny Edge Detection
+- Contours: Contours are curves joining continuous points of the same intensity. Determining contours is useful for object identification, face detection, and recognition.
+28. Contour Detection and Drawing
+
+## Building a Machine Learning- Based Computer Vision System
