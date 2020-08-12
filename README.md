@@ -96,3 +96,9 @@ Canny edge detection is one of the most popular edge detection methods in image 
 28. Contour Detection and Drawing
 
 ## Building a Machine Learning- Based Computer Vision System
+
+- Calculate the histogram of the image.
+
+29. Histogram of a Grayscale Image
+30. Histogram of Three Channels of RGB Color Image
+- Histogram Equalizer
