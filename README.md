@@ -102,3 +102,14 @@ Canny edge detection is one of the most popular edge detection methods in image 
 29. Histogram of a Grayscale Image
 30. Histogram of Three Channels of RGB Color Image
 - Histogram Equalizer
+Histogram equalization is an image processing technique to adjust the contrast of an image. It is a method of redistributing the pixel intensities in such a way that the intensities of the under-populated pixels are equalized to the intensities of over-populated pixel intensities
+31. Histogram Equalization
+- GLCM
+The gray-level co-occurrence matrix (GLCM) is the distribution of simultaneously occurring pixel values within a given offset. An offset is the position (distance and direction) of adjacent pixels. As the name implies, the GLCM is always calculated for a grayscale image.
+32. GLCM Calculation Using the greycomatrix() Function
+the GLCM is not directly used as a feature, but we use this to calculate some useful statistics, which gives us an idea about the texture of the image. 
+
+Contrast - Measures the local variations in the GLCM.
+Correlation - Measures the joint probability occurrence of the specified pixel pairs.
+Energy - Provides the sum of squared elements in the GLCM. Also known as uniformity or the angular second moment
+Homogeneity - Measures the closeness of the distribution of elements in the GLCM to the GLCM diagonal.
