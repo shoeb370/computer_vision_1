@@ -113,3 +113,4 @@ Contrast - Measures the local variations in the GLCM.
 Correlation - Measures the joint probability occurrence of the specified pixel pairs.
 Energy - Provides the sum of squared elements in the GLCM. Also known as uniformity or the angular second moment
 Homogeneity - Measures the closeness of the distribution of elements in the GLCM to the GLCM diagonal.
+33. Calculation of Image statistic from the GLCM
