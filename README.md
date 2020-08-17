@@ -114,3 +114,7 @@ Correlation - Measures the joint probability occurrence of the specified pixel p
 Energy - Provides the sum of squared elements in the GLCM. Also known as uniformity or the angular second moment
 Homogeneity - Measures the closeness of the distribution of elements in the GLCM to the GLCM diagonal.
 33. Calculation of Image statistic from the GLCM
+- HOG: Histogram of Oriented gradient
+important feature description for object detection
+structural shape and appearance of an object in an image
+The HOG algorithm computes the occurrences of gradient orientation in localized portions of the image.
