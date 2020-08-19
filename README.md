@@ -4,6 +4,7 @@ Publication Apress
 
 
 
+
 Currently work in progress.
 Below here are some list of code that are completed.
 
@@ -131,7 +132,7 @@ The HOG algorithm computes the occurrences of gradient orientation in localized 
 
 Feature selection is the process of selecting variables or attributes that are relevant and useful in model training. This is a process of eliminating unnecessary or irrelevant features and selecting a subset of features that are strong contributors to the learning of the model.
 
-Feature Extraction - Process of cfeatin Feature
+Feature Extraction - Process of cfeatin Feature \n
 Feature Selection - Process of removing unecessary feature
 
 ### Filter Method
