@@ -122,3 +122,17 @@ structural shape and appearance of an object in an image
 The HOG algorithm computes the occurrences of gradient orientation in localized portions of the image.
 
 34. Program to built HOG
+
+- LBP: Local binary patterns
+
+35. LBP Image and Histogram Calculation and Comparison with Original Image
+
+## Feature Selection
+
+Feature selection is the process of selecting variables or attributes that are relevant and useful in model training. This is a process of eliminating unnecessary or irrelevant features and selecting a subset of features that are strong contributors to the learning of the model.
+
+Feature Extraction - Process of cfeatin Feature
+Feature Selection - Process of removing unecessary feature
+
+### Filter Method
+
