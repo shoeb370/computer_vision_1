@@ -1,7 +1,12 @@
 # computer_vision_01
 Learn from book building a Computer Vision Applications using Artificial Neural Networks by Shamshad Ansari
-Publication Apress
+Publication: Apress
 
+install opencv packages: pip install opencv-python
+
+install numpy packages: pip install numpy
+
+install scikit image packages: pip install scikit-image
 
 
 
@@ -132,7 +137,8 @@ The HOG algorithm computes the occurrences of gradient orientation in localized 
 
 Feature selection is the process of selecting variables or attributes that are relevant and useful in model training. This is a process of eliminating unnecessary or irrelevant features and selecting a subset of features that are strong contributors to the learning of the model.
 
-Feature Extraction - Process of cfeatin Feature \n
+Feature Extraction - Process of creating Feature
+
 Feature Selection - Process of removing unecessary feature
 
 ### Filter Method
