@@ -140,6 +140,6 @@ Feature selection is the process of selecting variables or attributes that are r
 Feature Extraction - Process of creating Feature
 
 Feature Selection - Process of removing unecessary feature
+- Filter Method: Filtering is a process that allows you to do preprocessing to select the feature subset. In this process, you determine a correlation between a feature and the target variable and determine their relationship based on statistical scores.
 
-### Filter Method
-
+- Wrapper Method:In the wrapper method, you use a subset of features and train the model. Evaluate the model, and based on the result, either add or remove features and retrain the model. 1. Forward Selection, 2. Backward Elimination, 3. Recursive Feature Elimination
