@@ -143,3 +143,19 @@ Feature Selection - Process of removing unecessary feature
 - Filter Method: Filtering is a process that allows you to do preprocessing to select the feature subset. In this process, you determine a correlation between a feature and the target variable and determine their relationship based on statistical scores.
 
 - Wrapper Method:In the wrapper method, you use a subset of features and train the model. Evaluate the model, and based on the result, either add or remove features and retrain the model. 1. Forward Selection, 2. Backward Elimination, 3. Recursive Feature Elimination
+
+### Model Deployment
+
+- Embedded Model: Edge Computing Device (IoT)
+- Model Deployed as seperate service: The model is wrapped. Servic is independentlty deployed and seperated from consuming applications. This allow us to update the model and redeploy them without affecting other applications.
+- Model deployed as RESTful web service: Model are called via RESTful API using TCP/IP protocol.
+provide scalability and Load balancing.
+- Model Deployed for distributed process: Highly scalable model deployment. Input image stored in distributed storage that is accessible by all nodes of a cluster. All participanting nodes takes input from distributed storage, process them and stored the prediction outcome to distributed storage for application to consuming. eg. Hadoop Distributed File System (HDFS), Amazon S3, Google Cloud storage and Azure Blob Storage. 
+
+## Chapter 5: Deep Learning and Artificial Neural Networks (ANN):
+
+An ANN is a computing system that is designed to work the way human brain works. 
+A human body has a billions of neurons with trillions interconnections amongs them. These interconnected neurons are called as neural network.
+![Getting Started](./images/neuron_img.jpg)
+
+
