@@ -156,11 +156,7 @@ provide scalability and Load balancing.
 
 An ANN is a computing system that is designed to work the way human brain works. 
 A human body has a billions of neurons with trillions interconnections amongs them. These interconnected neurons are called as neural network.
-<<<<<<< HEAD
 
-## ![Human Neurons](https://cdn1.byjus.com/wp-content/uploads/2020/02/STRUCTURE-OF-NEURON.png)
-=======
-![Getting Started](file:///D:/master_ml/code/CV_ANN_1/images/neuron_img.png)
->>>>>>> 00caaaf2aaa71b232e501641e66047a8c92c5b7f
+![Human Neurons](https://cdn1.byjus.com/wp-content/uploads/2020/02/STRUCTURE-OF-NEURON.png)
 
 
