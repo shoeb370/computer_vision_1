@@ -166,3 +166,4 @@ brains do. This learning system is called an artificial neural network (ANN).
 
 
 The variable x1, x2,...xn are the input signal(image features) with certain weight w1, w2,...wn associated with each input signal. These input signal processed using some mathematical functions to generate outputs. The processing unit combine with these inputs signal is called neurons. The mathematical function that computes the output from the neuron is called an activation function. the circle matks with sigma symbol is the neuron. the output y is generated from the neuron.
+ - Perceptron: A single neuron of a neural network is called a perceptron. 
