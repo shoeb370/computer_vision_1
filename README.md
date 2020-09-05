@@ -159,4 +159,8 @@ A human body has a billions of neurons with trillions interconnections amongs th
 
 ![Human Neurons](https://cdn1.byjus.com/wp-content/uploads/2020/02/STRUCTURE-OF-NEURON.png)
 
+Computer scientists were inspired by the human vision system and tried to mimic
+neural networks by creating a computer system that learns and functions the way our
+brains do. This learning system is called an artificial neural network (ANN).
+![Artificial Neurons](https://cdn-images-1.medium.com/freeze/max/1000/1*tMuOsWWRX3fR84xoSeJcAw.png?q=20)
 
