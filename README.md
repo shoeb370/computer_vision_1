@@ -163,4 +163,6 @@ Computer scientists were inspired by the human vision system and tried to mimic
 neural networks by creating a computer system that learns and functions the way our
 brains do. This learning system is called an artificial neural network (ANN).
 ![Artificial Neurons](https://cdn-images-1.medium.com/freeze/max/1000/1*tMuOsWWRX3fR84xoSeJcAw.png?q=20)
+
+
 The variable x1, x2,...xn are the input signal(image features) with certain weight w1, w2,...wn associated with each input signal. These input signal processed using some mathematical functions to generate outputs. The processing unit combine with these inputs signal is called neurons. The mathematical function that computes the output from the neuron is called an activation function. the circle matks with sigma symbol is the neuron. the output y is generated from the neuron.
