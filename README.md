@@ -146,11 +146,6 @@ Feature Selection - Process of removing unecessary feature
 
 ### Model Deployment
 
-- Embedded Model: Edge Computing Device (IoT)
-- Model Deployed as seperate service: The model is wrapped. Servic is independentlty deployed and seperated from consuming applications. This allow us to update the model and redeploy them without affecting other applications.
-- Model deployed as RESTful web service: Model are called via RESTful API using TCP/IP protocol.
-provide scalability and Load balancing.
-- Model Deployed for distributed process: Highly scalable model deployment. Input image stored in distributed storage that is accessible by all nodes of a cluster. All participanting nodes takes input from distributed storage, process them and stored the prediction outcome to distributed storage for application to consuming. eg. Hadoop Distributed File System (HDFS), Amazon S3, Google Cloud storage and Azure Blob Storage. 
 
 ## Chapter 5: Deep Learning and Artificial Neural Networks (ANN):
 
@@ -165,5 +160,3 @@ brains do. This learning system is called an artificial neural network (ANN).
 ![Artificial Neurons](https://cdn-images-1.medium.com/freeze/max/1000/1*tMuOsWWRX3fR84xoSeJcAw.png?q=20)
 
 
-The variable x1, x2,...xn are the input signal(image features) with certain weight w1, w2,...wn associated with each input signal. These input signal processed using some mathematical functions to generate outputs. The processing unit combine with these inputs signal is called neurons. The mathematical function that computes the output from the neuron is called an activation function. the circle matks with sigma symbol is the neuron. the output y is generated from the neuron.
- - Perceptron: A single neuron of a neural network is called a perceptron. 
